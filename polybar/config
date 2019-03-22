@@ -1,7 +1,11 @@
 ; ===============
 ; POLYBAR DOTFILE
 ; MADE BY CHECHU!
+; MODIFIED BY CARLOS!
 ; ===============
+
+[settings]
+screenchange-reload = true
 
 ; COLOR PALLETTE
 [colors]
@@ -27,7 +31,7 @@
     font-0              			= Roboto Mono: pixelsize=11: weight=medium; 2 
     
     modules-left				= song xwindow pOff
-    modules-center      			= time 
+    modules-center      			= time
     modules-right       			= volume_xps temperature_intel memory battery brightness wireless
 
     fixed-center        			= true
@@ -135,7 +139,6 @@
 
 	format-charging 				= BAT <label-charging>
 	format-discharging 				= BAT <label-discharging>
-
 	label-charging-foreground 		= ${colors.foreground}
 	label-discharging-foreground 	= ${colors.foreground-alt}
 
